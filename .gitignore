@@ -2,3 +2,5 @@
 *.log
 # ignore backup files
 *.bak
+# ignore shell scripts
+*.sh
