@@ -1,0 +1,29 @@
+version: '2'
+services:
+  nginx-proxy:
+    restart: always
+    image: jwilder/nginx-proxy
+    container_name: nginx-proxy
+    ports:
+      - "80:80"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro  
+  cv-api:
+    build: ./
+    restart: always
+    image: local/cv-api
+    container_name: cv-api
+#    ports:
+#     - "5000:5000"
+    expose:
+     - "5000"
+    volumes:
+     - .:/code
+    environment:
+     - VIRTUAL_HOST=cv.bocchinfuso.net
+
+networks:
+  default:
+    external:
+      name: nginx-proxy
+

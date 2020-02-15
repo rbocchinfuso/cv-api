@@ -1,0 +1,319 @@
+{
+  "basics": {
+    "name": "Richard Bocchinfuso",
+    "label": "Engineering Leader",
+    "picture": "https://www.amazon.com/photos/shared/LXSe47yaTFG6xpysgRjk2w.zXlCanNXrbwQpiexHtSxOy",
+    "email": "rbocchinfuso@gmail.com",
+    "phone": "(732) 713-5671",
+    "website": "http://bocchinfuso.net",
+    "summary": "As a passionate and dedicated information technology professional, I have extensive experience in the enterprise class systems design, implementation and operations. I have a proven track record of building and sustaining great engineering cultures, innovating and delivering tangible business value. My communication skills, leadership abilities and consulting experience compliment my software and hardware engineering skills, allowing me to provide hands-on technical direction for my team and customers alike.",
+    "location": {
+      "address": "3 Meadow Court",
+      "city": "Manalapan",
+      "state": "NJ",
+      "postalCode": "07726",
+      "countryCode": "US",
+      "region": "Northeast"
+    },
+    "social": [
+      {
+        "network": "LinkedIn",
+        "username": "rbocchinfuso",
+        "url": "https://www.linkedin.com/in/rbocchinfuso/"
+      },
+      {
+        "network": "Twitter",
+        "username": "rbocchinfuso",
+        "url": "http://twitter.com/rbocchinfuso"
+      },
+      {
+        "network": "GitHub",
+        "username": "rbocchinfuso",
+        "url": "https://github.com/rbocchinfuso"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Computacenter",
+      "position": "Practice Director, Digital Innovation",
+      "website": "http://computacenter.com/us",
+      "startDate": "July 2007",
+      "endDate": "Present",
+      "summary": "Description...",
+      "highlights": [
+        "As the Digital Innocation, Practice Director, I am responsible for Expert Serivices contractual service engagements which focus on delivering ElegantOps, the public Cloud and DevOps, and out ServiceNow business.  My responsibilities include vision, evangelism, execution, and oversight. Everything we do focuses on programmatic service delivery through automation, metrics and continuous improvement."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Habitat for Humanity",
+      "position": "Volunteer",
+      "website": "https://www.habitat.org/",
+      "startDate": "2014",
+      "endDate": "2017",
+      "summary": "Volunteer for HFH in Monmouth County",
+      "highlights": [
+        "Rebuilt homes in Keansburg and Freehold, New Jersey that were destroyed by Hurricane Sandy in 2012.",
+        "Published a forty pager achedemic paper on my experience. The paper outlines the impact of Huricane Sandy; the projects I worked on; my experiences; influencers such as religion, govenment, social good and human behavior; home owner sweat equity in the context of the HFH program; an examination or equality, prejudice, proposition, dicrimination and morality; family; finding meaning in the work and the dichotomy between the homeowner and the volunteer; democracy; and civic engagement."
+        ]
+    },
+    {
+      "organization": "TechXplore",
+      "position": "Volunteer",
+      "website": "https://www.habitat.org/",
+      "startDate": "2014",
+      "endDate": "2017",
+      "summary": "Volunteer for HFH in Monmouth County",
+      "highlights": [
+        "Blah"
+      ]
+    },
+    {
+      "organization": "TechXplore",
+      "position": "Volunteer",
+      "website": "https://www.habitat.org/",
+      "startDate": "2014",
+      "endDate": "2017",
+      "summary": "Volunteer for HFH in Monmouth County",
+      "highlights": [
+        "Blah"
+        ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Columbia University",
+      "area": "Data Science",
+      "studyType": "Post Graduate",
+      "startDate": "2019",
+      "endDate": "2019",
+      "gpa": "4.0",
+      "courses": [
+        "Data analysis & visualization – Part 1",
+        "Data analysis & visualization – Part 2",
+        "Statistical distributions",
+        "Sampling",
+        "Hypothesis testing",
+        "Regression",
+        "Model Evaluation",
+        "Classification",
+        "Decision trees",
+        "Clustering",
+        "Text mining – Part 1 (Sentiment Analysis)",
+        "Text mining – Part 2 (Topic Modeling)"
+      ],
+      "other": ""
+    },
+    {
+      "institution": "Florida Insitute of Technology",
+      "area": "Information Technology, Cybersecurity",
+      "studyType": "MS",
+      "startDate": "2017",
+      "endDate": "2018",
+      "gpa": "4.0",
+      "coreCourses": [
+        "MGT5000: Financial Accounting (COMPLETED – Grade: A)",
+        "MGT5002: Corporate Finance (COMPLETED – Grade: A)",
+        "MGT5013: Organizational Behavior (COMPLETED – Grade: A)",
+        "MGT5014: Information Systems (COMPLETED – Grade: A)",
+        "MGT5113: Project Management for Information Technology (COMPLETED – Grade: A)",
+        "MGT5114: Introduction to Information Security Management (COMPLETED – Grade: A)",
+        "MGT5115: Global Information Technology Management (COMPLETED – Grade: A)",
+        "MGT5154: Advanced Management of Information Systems (COMPLETED – Grade: A)"
+      ],
+      "electiveCourses": [
+        "MGT5155: Security in Enterprise (COMPLETED – Grade: A)",
+        "MGT5156: Host-Based Security (COMPLETED – Grade: A)",
+        "MGT5157: Secure Networks and Communication (COMPLETED – Grade: A)"
+      ],
+      "other": "Phi Kappa Phi Honor Society (https://phikappaphi.meritpages.com/stories/Richard-Bocchinfuso-Inducted-into-The-Honor-Society-of-Phi-Kappa-Phi-/13504822)"
+    },
+    {
+      "institution": "Bellevue University",
+      "area": "Computer Information Systems",
+      "studyType": "MS",
+      "gpa": "3.7",
+      "courses": [
+        ""
+      ],
+      "other": ""
+    },
+    {
+      "institution": "California University of Pennsylvania",
+      "area": "Computer Science",
+      "studyType": "BS",
+      "gpa": "4.0",
+      "courses": [
+        ""
+      ],
+      "other": "Delta Sigma Phi Social Fraternity"
+    }
+  ],
+  "awards": [
+    {
+      "title": "MTI Presidents Club",
+      "date": "2000,2006",
+      "awarder": "MTI",
+      "summary": "Reward trip given to top sales achivers.  I was the first every engineer ever nominated and sent to presidents club."
+    },
+    {
+      "title": "MTI Outstanding Player",
+      "date": "1999",
+      "awarder": "MTI",
+      "summary": ""
+    },
+    {
+      "title": "MTI Engineer of the Quarter",
+      "date": "Q3 1999,Q1 2000",
+      "awarder": "MTI",
+      "summary": ""
+    },
+    {
+      "title": "Storability Presidents Club",
+      "date": "2003",
+      "awarder": "Storability",
+      "summary": ""
+    },
+    {
+      "title": "Fusionstorm Engineering Club",
+      "date": "2009",
+      "awarder": "Fusionstorm",
+      "summary": ""
+    },
+    {
+      "title": "Fusionstorm Presidents Club",
+      "date": "2010,2011,2012,2013,2014,2015,2016",
+      "awarder": "Fusionstorm",
+      "summary": "I declined all FusionStorm president club trips and individual recognition.  After a few years of quietly declining the reward, I was asked why, to which I provided an answer.  I was they provided the funding to recognize the work of the entire engineering team responsible for our success. This was the first and only time Fusionstorm allowed dollars designated for Presidents Club to be used in a different way.  Sales leadership does not love my appraoch thus they discontinued invites; the fact remains that the success of the team is the our success not my success."
+    },
+    {
+      "title": "National TechXplore Merit Award for High Achievement",
+      "date": "2005",
+      "awarder": "TechExplore",
+      "summary": ""
+    },
+    {
+      "title": "EMC Xtreme Certification Challenge Winner",
+      "date": "2012,2013",
+      "awarder": "EMC",
+      "summary": ""
+    }
+  ],
+  "publications": [
+    {
+      "name": "bocchinfuso.net",
+      "publisher": "Rich Bocchinfuso",
+      "releaseDate": "2017",
+      "website": "http://bocchinfuso.net",
+      "summary": "Personal web site"
+    },
+    {
+      "name": "gotITsolutions.org",
+      "publisher": "Rich Bocchinfuso",
+      "releaseDate": "2007",
+      "website": "http://gotitsolutions.org",
+      "summary": "Personal blog"
+    },
+    {
+      "name": "AppOfTheDay.org",
+      "publisher": "Rich Bocchinfuso",
+      "releaseDate": "2019",
+      "website": "http://appoftheday.org",
+      "summary": "Personal blog where I share my web, desktop and mobile application experineces."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Shells (Proud Polyglot)",
+      "level": "Experienced",
+      "keywords": [
+        "Python",
+        "PowerShell",
+        "Perl",
+        "PHP",
+        "JavaScript",
+        "Node.js",
+        "R",
+        "VBScript",
+        "Shell (Bash,KSH,etc)",
+        "SQL",
+        "Tcl/Tk",
+        "HTML"
+      ]
+    },
+    {
+      "name": "Opeerating Systems",
+      "level": "Experienced",
+      "keywords": [
+        "Linux",
+        "Windows",
+        "Cut my teeth on SunOS, Solaris, DEC Unix, HP/UX, AIX and SGI Irix"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Technology",
+      "keywords": [
+        "Operational Elegance",
+        "Automating All The Things",
+        "Cloud",
+        "Serverless",
+        "IoT",
+        "Linux"
+      ]
+    },
+    {
+      "name": "Philly Sports Fan",
+      "keywords": [
+        "Eagles",
+        "Phillies",
+        "FLyers",
+        "Football",
+        "Baseball",
+        "Hockey"
+      ]
+    },
+    {
+      "name": "Working with my hands",
+      "keywords": [
+        "Home improvement",
+        "Construction",
+        "Eletrical",
+        "Plumbing",
+        "Automotive"
+      ]
+    },
+    {
+      "name": "Learning",
+      "keywords": [
+        "Reading",
+        "Documentaries",
+        "Experimentation",
+        "Passion",
+        "Perseverence",
+        "Continuous Improvement"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Personal",
+      "reference": "Available upon request"
+    },
+    { "name": "Professional",
+      "reference": "Available upon request"
+    },
+    { "name": "Academic",
+      "reference": "Recent PhD applicaion reference letters available upon request"
+    }
+  ]
+}

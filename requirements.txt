@@ -1,0 +1,4 @@
+Flask
+flask_httpauth
+datetime
+configparser
