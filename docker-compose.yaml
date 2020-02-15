@@ -9,9 +9,10 @@ services:
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro  
   cv-api:
-    build: ./
+#   build: ./
     restart: always
-    image: local/cv-api
+#   image: local/cv-api
+    image: rbocchinfuso/cv-api:latest
     container_name: cv-api
 #    ports:
 #     - "5000:5000"
