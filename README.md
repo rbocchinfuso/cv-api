@@ -18,7 +18,14 @@ _Note: If you have any questions or comments you can always DM me on the twitter
     - Thank you to https://jsonresume.org/ for providing an existing standard.
 - Build API with Python and Flash
 - Package and containerize API
-- Automate deployment
+- CI/CD
+```mermaid
+graph LR
+A[Git Commit] -->B(Docker Hub Build)
+    B --> C{Decision}
+    C -->|Build Success| D[Watchtower pulls latest image and restarts contianer]
+    C -->|Build Failure| E[Watchtower leaves existing container image running]
+```
 
 #### Tooling
 - **Plan**
@@ -86,6 +93,7 @@ _Note: If you have any questions or comments you can always DM me on the twitter
 - [Read the full API documentation](https://documenter.getpostman.com/view/916401/SWLe6nU9?version=latest#1421c1f4-b5cb-42fd-9188-fc0b168c65d7)
 
 ### Get my CV API from Docker Hub for local use
+```docker pull rbocchinfuso/cv-api```
 
 ### Deploy for Personal Use
 - Download code from GitHub for personal use
