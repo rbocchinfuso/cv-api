@@ -45,6 +45,8 @@ A[Git Commit] -->B(Docker Hub Build)
 		- API testing and documentation
 	- JSON Editor Online:  https://jsoneditoronline.org/
 		- Great tool for editing and validating JSON.
+	- StackEdit:  https://stackedit.io/
+		- Online Markdown editor
 - **Version**
 	- GItHub:  https://github.com/rbocchinfuso/cv-api.git
 	- DockerHub:  https://hub.docker.com/
