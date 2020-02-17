@@ -1,7 +1,11 @@
 # CV API
 
+![alt text](https://d117h1jjiq768j.cloudfront.net/images/default-source/default-album/lp_banner-3.jpg?sfvrsn=74f89f35_1 "CV API")
+
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=rbocchinfuso_cv-api&metric=alert_status)](https://sonarcloud.io/dashboard?id=rbocchinfuso_cv-api)
+
 ## Summary
-An Curriculum Vitae (Resume) API 
+A Curriculum Vitae (Resume) API 
 
 _Note: If you have any questions or comments you can always DM me on the twitter @rbocchinfuso._
 
@@ -55,8 +59,11 @@ A[Git Commit] -->B(Docker Hub Build)
 	- Watchtower:  https://containrrr.github.io/watchtower/
 - **Test**
 	- pytest:  https://docs.pytest.org/en/latest/
+	- Post HTTP Request Online:  https://reqbin.com/c-est4catc
 	- Postman:  https://www.getpostman.com/
 	- lgtm:  https://lgtm.com/
+	- loader.io:  https://loader.io/
+	- sonarcloud:  https://sonarcloud.io/
 - **Deploy**
 	- Docker:  https://www.docker.com/
 - **Monitor**
