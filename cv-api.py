@@ -26,9 +26,6 @@ admin_tokens = {
 subscriber_tokens = {
     config['auth']['subscriber_token'].encode('ascii') : "subscriber"
  }
-
-# print (admin_tokens)
-# print (subscriber_tokens)
  
 @admin_auth.verify_token
 def verify_token(token):
@@ -65,21 +62,17 @@ def not_found(error):
 # load json data from cv.json
 with open(config['local']['json_data']) as json_file:
     cv = json.load(json_file)
-#     print json.dumps(cv)
-#     print(str(datetime.datetime.now()) + ' | info |    ' + str(cvDetails))
 
 # api get
 @app.route('/app/api/v1.0/cv', methods=['GET']) 
 @subscriber_auth.login_required
 def get_cv():
-    #     return jsonify(cv)
     return jsonify({'cv': [cv]})
 
 # api get specific section
 @app.route('/app/api/v1.0/cv/<section>', defaults={}, methods=['GET']) 
 @subscriber_auth.login_required
 def get_cvSection(section):
-#     return jsonify(cv[section])
     return jsonify({section: [cv[section]]})
 
 # a route to the loader.io token
