@@ -1,5 +1,7 @@
 # ignore log files
 *.log
+# ignore text files
+*.txt
 # ignore backup files
 *.bak*
 # ignore shell scripts

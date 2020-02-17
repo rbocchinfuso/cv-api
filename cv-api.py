@@ -4,8 +4,8 @@
 # Rich Bocchinfuso
 # cv-api.py
 
-import time, json, datetime, configparser
-from flask import Flask, jsonify, abort, make_response, request, url_for, g
+import json, configparser
+from flask import Flask, jsonify, make_response, g
 from flask_httpauth import HTTPTokenAuth
 
 # read and parse config file
