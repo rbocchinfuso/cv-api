@@ -72,7 +72,7 @@ def get_cv():
 # api get specific section
 @app.route('/app/api/v1.0/cv/<section>', defaults={}, methods=['GET']) 
 @subscriber_auth.login_required
-def get_cvSection(section):
+def get_cvsection(section):
     return jsonify({section: [cv[section]]})
 
 # a route to the loader.io token
