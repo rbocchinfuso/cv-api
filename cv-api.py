@@ -1,12 +1,22 @@
 #/home/bocchrj/miniconda3/bin/python
 # source activate dev01
-# CV RESTful API servvie
-# Rich Bocchinfuso
-# cv-api.py
 
+"""cv-api.py: Curriculum Vitae (CV) API"""
+
+# Generic/Built-in
 import json, configparser
 from flask import Flask, jsonify, make_response, g
 from flask_httpauth import HTTPTokenAuth
+
+# Owned
+__author__ = 'Rich Bocchinfuso'
+__copyright__ = 'Copyright 2020, CV API'
+__credits__ = ['Rich Bocchinfuso']
+__license__ = 'MIT'
+__version__ = '0.1.0'
+__maintainer__ = 'Rich Bocchinfuso'
+__email__ = 'rbocchinfuso@gmail.com'
+__status__ = 'Dev'
 
 # read and parse config file
 config = configparser.ConfigParser()
