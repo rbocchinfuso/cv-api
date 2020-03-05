@@ -43,12 +43,11 @@ Learn more here: http://bit.ly/372imHl
 
 ---?code=./Dockerfile&lang=dockerfile
 
-@snap[east span-50]
+@snap[south-east span-40]
 Dockerfile!
 @snapend
 
-
-@snap[west span-40]
+@snap[north-east west span-40]
 @[1-9, zoom-5](Pull Alpline Linux image, update and install Python (JeOS))
 @[10-14, zoom-5](Copy app code into container.)
 @[15-18, zoom-5](Set app directory, install requirements, start application.)
@@ -56,6 +55,8 @@ Dockerfile!
 
 
 ---?image=assets/img/code.jpg&opacity=60&position=left&size=45% 100%
+
+---
 
 @snap[east span-50 text-center]
 ## Now It's **Your** Turn
