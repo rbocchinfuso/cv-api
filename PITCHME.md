@@ -24,7 +24,7 @@ Learn more here: http://bit.ly/372imHl
 ---?color=linear-gradient(180deg, white 75%, black 25%)
 @title[Customize Slide Layout]
 
-@snap[center span-100]
+@snap[north span-100]
 ![IMAGE](assets/img/pipeline.png)
 @snapend
 
