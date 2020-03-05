@@ -24,7 +24,7 @@ Learn more here: http://bit.ly/372imHl
 ---
 @title[Add A Little Imagination]
 
-@snap[north-west span-50 text-center]
+@snap[east span-50 text-center]
 ## Why?
 @snapend
 
@@ -38,11 +38,6 @@ Learn more here: http://bit.ly/372imHl
 - Because my dad taught me to not ask for things you can't do yourself.
 @ulend
 @snapend
-
-@snap[east span-45]
-![IMAGE](assets/img/why.jpg)
-@snapend
-
 
 ---
 
