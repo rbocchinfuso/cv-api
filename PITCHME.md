@@ -58,6 +58,19 @@ Dockerfile!
 
 ---
 
+@snap[west span-40]
+@code[dockerfile zoom-07](./Dockerfile)
+@snapend
+
+@snap[east span-50]
+### Live Code Presenting
+@snapend
+
+---
+
+
+
+
 @snap[east span-50 text-center]
 ## Now It's **Your** Turn
 @snapend
