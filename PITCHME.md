@@ -48,9 +48,9 @@ Dockerfile!
 ---?code=./Dockerfile
 
 @snap[south span-100]
-@[1-9, zoom-13](Pull Alpline Linux image, update and install Python (JeOS))
-@[10,14, zoom-13](Copy app code into container.)
-@[15-18, zoom-13](Set app directory, install requirements, start application.)
+@[1-9, zoom-5](Pull Alpline Linux image, update and install Python (JeOS))
+@[10,14, zoom-5](Copy app code into container.)
+@[15-18, zoom-5](Set app directory, install requirements, start application.)
 @snapend
 
 
