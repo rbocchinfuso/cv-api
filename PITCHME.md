@@ -41,7 +41,7 @@ Learn more here: http://bit.ly/372imHl
 
 ---
 
-@snap[north-east span-100 text-pink text-06]
+@snap[north-east span-30]
 Dockerfile!
 @snapend
 
