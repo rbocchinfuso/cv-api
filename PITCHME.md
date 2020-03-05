@@ -58,6 +58,22 @@ Dockerfile!
 
 ---
 
+@code[dockerfile zoom-07](./Dockerfile)
+
+@snap[east span-50]
+### Dockerfile
+@snapend
+
+@snap[south span-100]
+@[1-9, zoom-5](Pull Alpline Linux image, update and install Python (JeOS))
+@[10-14, zoom-5](Copy app code into container.)
+@[15-18, zoom-5](Set app directory, install requirements, start application.)
+@snapend
+
+
+
+---
+
 @snap[west span-40]
 @code[dockerfile zoom-07](./Dockerfile)
 @snapend
