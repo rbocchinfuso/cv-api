@@ -46,7 +46,7 @@ Dockerfile!
 @snapend
 
 @snap[west span-40]
-@code[golang zoom-07](./Dockerfile)
+---?code=./Dockerfile&lang=dockerfile&color=black
 @snapend
 
 
