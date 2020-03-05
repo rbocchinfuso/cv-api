@@ -12,7 +12,7 @@ theme-headline   : [ "Montserrat", "#FBD95E", "none", "#FFFFFF", "100", "120", "
 theme-byline     : [ "Raleway", "#FFFFFF", "none", "#FBD95E", "100", "110", "15" ]
 theme-text       : [ "Ubuntu", "#FFFFFF", "none", "#A0C865", "100", "100", "15" ]
 theme-links      : [ "#F1C40F", "#5254F7" ]
-theme-code       : [ "Fira Code" ]
+theme-code       : [ "Source Code Pro", "100", "120" ]
 theme-controls   : [ "#C0C0C0" ]
 theme-margins    : [ "0", "15px" ]
 layout           : center
@@ -21,7 +21,7 @@ layout           : center
 # Highlight Setting
 # Doc: https://gitpitch.com/docs/settings/highlight
 #
-highlight : tomorrow
+highlight : ir-black
 
 #
 # Theme-Override Setting
