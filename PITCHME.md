@@ -46,9 +46,7 @@ Dockerfile!
 @snapend
 
 @snap[west span-40]
----color=#000000
----lang=dockerfile
----?code=./Dockerfile
+---?code=./Dockerfile&lang=dockerfile
 @snapend
 
 
