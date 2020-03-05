@@ -24,18 +24,13 @@ Learn more here: http://bit.ly/372imHl
 ---?color=linear-gradient(180deg, white 75%, black 25%)
 @title[Customize Slide Layout]
 
-@snap[west span-55]
-## The Narrative
-@snapend
-
-@snap[north-east span-100]
+@snap[center span-100]
 ![IMAGE](assets/img/pipeline.png)
 @snapend
 
 @snap[south span-100]
 ## My Pipeline
 @snapend
-
 
 ---
 @title[Add A Little Imagination]
