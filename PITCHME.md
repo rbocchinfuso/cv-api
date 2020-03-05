@@ -48,9 +48,9 @@ Learn more here: http://bit.ly/372imHl
 @snapend
 
 @snap[south span-100]
-@[1-9, zoom-15](Pull Alpline Linux image, update and install Python (JeOS))
-@[10-14, zoom-15](Copy app code into container.)
-@[15-18, zoom-15](Set app directory, install requirements, start application.)
+@[1-9, zoom-10](Pull Alpline Linux image, update and install Python (JeOS))
+@[10-14, zoom-10](Copy app code into container.)
+@[15-18, zoom-10](Set app directory, install requirements, start application.)
 @snapend
 
 
