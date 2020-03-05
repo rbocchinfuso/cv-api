@@ -59,7 +59,7 @@ Dockerfile!
 ---
 
 @snap[west span-40]
-@code[dockerfile](./Dockerfile)
+@code[dockerfile zoom-08](./Dockerfile)
 @snapend
 
 @snap[east span-50]
