@@ -1,4 +1,4 @@
-# GitPitch In-60-Seconds - A Very Short Tutorial.
+# CV API
 #
 
 #
@@ -46,7 +46,7 @@ layout : center
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-footnote : "GitPitch - The Fastest Way From Idea To Presentation"
+footnote : "Digital Innvation 2020 Kickoff, Atlantic City, NJ"
 
 #
 # Published Setting
@@ -58,7 +58,7 @@ published : true
 # Twitter Card Settings [Pro Only]
 # Doc: https://gitpitch.com/docs/settings/twitter-card
 #
-title : "GitPitch In 60 Seconds"
-description : "A short tutorial introducing GitPitch Markdown Presentations for Developers."
-thumbnail : https://gitpitch.com/gpimg/tutorial-thumb.png
+title : "My CV API"
+description : "Because we have the right and responsibility to validate cultural fit."
+thumbnail : /assets/img/cv_icon.png
 

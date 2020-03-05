@@ -7,10 +7,12 @@ RUN apk add --update \
     build-base \
   && pip install virtualenv \
   && rm -rf /var/cache/apk/*
-COPY . /app
-COPY requirements.txt /app
+RUN mkdir -p /app
+ADD ./cv.json /app
+ADD ./config.ini /app
+ADD ./cv-api.py /app
+ADD ./requirements.txt /app
 WORKDIR /app
 RUN pip install -r requirements.txt
 ENTRYPOINT ["python"]
 CMD ["cv-api.py"]
-

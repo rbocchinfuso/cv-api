@@ -10,15 +10,15 @@
 @title[Customize Slide Layout]
 
 @snap[west span-55]
-## Customize the Layout
+## The Narrative
 @snapend
 
 @snap[north-east span-45]
-![IMAGE](assets/img/presentation.png)
+![IMAGE](assets/img/narrative.jpg)
 @snapend
 
 @snap[south span-100]
-Snap Layouts let you create custom slide designs directly within your markdown.
+Learn more here: http://bit.ly/372imHl
 @snapend
 
 ---
@@ -30,38 +30,27 @@ Snap Layouts let you create custom slide designs directly within your markdown.
 
 @snap[west span-55]
 @ul[list-spaced-bullets text-09]
-- You will be amazed
-- What you can achieve
-- With a **little imagination**
-- And GitPitch Markdown
+- Just **for fun**.
+- Because **I can**.
+- Inflight **boredom** and shitty United WiFi.
+- Because we **learn by doing**.
+- Because we live in an **API driven world**.
+- Because my dad taught me to not ask for things you can't do yourself.
 @ulend
 @snapend
 
 @snap[east span-45]
-![IMAGE](assets/img/conference.png)
+![IMAGE](assets/img/why.jpg)
 @snapend
 
-@snap[south span-100 bg-black fragment]
-@img[shadow](assets/img/conference.png)
-@snapend
 
 ---
 
 @snap[north-east span-100 text-pink text-06]
-Let your code do the talking!
+Dockerfile!
 @snapend
 
-```sql zoom-18
-CREATE TABLE "topic" (
-    "id" serial NOT NULL PRIMARY KEY,
-    "forum_id" integer NOT NULL,
-    "subject" varchar(255) NOT NULL
-);
-ALTER TABLE "topic"
-ADD CONSTRAINT forum_id
-FOREIGN KEY ("forum_id")
-REFERENCES "forum" ("id");
-```
+---?code=./Dockerfile
 
 @snap[south span-100 text-gray text-08]
 @[1-5](You can step-and-ZOOM into fenced-code blocks, source files, and Github GIST.)
