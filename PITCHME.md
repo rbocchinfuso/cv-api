@@ -47,10 +47,10 @@ Dockerfile!
 
 ---?code=./Dockerfile
 
-@snap[south span-100 text-gray text-08]
-@[1-5](You can step-and-ZOOM into fenced-code blocks, source files, and Github GIST.)
-@[6,7, zoom-13](Using GitPitch live code presenting with optional annotations.)
-@[8-9, zoom-12](This means no more switching between your slide deck and IDE on stage.)
+@snap[south span-100]
+@[1-9, zoom-13](Pull Alpline Linux image, update and install Python (JeOS))
+@[10,14, zoom-13](Copy app code into container.)
+@[15-18, zoom-13](Set app directory, install requirements, start application.)
 @snapend
 
 
