@@ -21,6 +21,22 @@
 Learn more here: http://bit.ly/372imHl
 @snapend
 
+---?color=linear-gradient(180deg, white 75%, black 25%)
+@title[Customize Slide Layout]
+
+@snap[west span-55]
+## The Narrative
+@snapend
+
+@snap[north-east span-100]
+![IMAGE](assets/img/pipeline.png)
+@snapend
+
+@snap[south span-100]
+## My Pipeline
+@snapend
+
+
 ---
 @title[Add A Little Imagination]
 
@@ -48,9 +64,9 @@ Learn more here: http://bit.ly/372imHl
 @snapend
 
 @snap[south span-100]
-@[1-9, zoom-12](Pull Alpline Linux image, update and install Python (JeOS))
-@[10-14, zoom-12](Copy app code into container.)
-@[15-18, zoom-12](Set app directory, install requirements, start application.)
+@[1-9, zoom-11](Pull Alpline Linux image, update and install Python (JeOS))
+@[10-14, zoom-11](Copy app code into container.)
+@[15-18, zoom-11](Set app directory, install requirements, start application.)
 @snapend
 
 
