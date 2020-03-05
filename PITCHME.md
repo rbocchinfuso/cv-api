@@ -41,23 +41,6 @@ Learn more here: http://bit.ly/372imHl
 
 ---
 
----?code=./Dockerfile&lang=dockerfile
-
-@snap[south-east span-40]
-Dockerfile!
-@snapend
-
-@snap[north-east west span-40]
-@[1-9, zoom-5](Pull Alpline Linux image, update and install Python (JeOS))
-@[10-14, zoom-5](Copy app code into container.)
-@[15-18, zoom-5](Set app directory, install requirements, start application.)
-@snapend
-
-
----?image=assets/img/code.jpg&opacity=60&position=left&size=45% 100%
-
----
-
 @code[dockerfile zoom-07](./Dockerfile)
 
 @snap[east span-50]
@@ -65,25 +48,13 @@ Dockerfile!
 @snapend
 
 @snap[south span-100]
-@[1-9, zoom-5](Pull Alpline Linux image, update and install Python (JeOS))
-@[10-14, zoom-5](Copy app code into container.)
-@[15-18, zoom-5](Set app directory, install requirements, start application.)
+@[1-9, zoom-15](Pull Alpline Linux image, update and install Python (JeOS))
+@[10-14, zoom-15](Copy app code into container.)
+@[15-18, zoom-15](Set app directory, install requirements, start application.)
 @snapend
-
 
 
 ---
-
-@snap[west span-40]
-@code[dockerfile zoom-07](./Dockerfile)
-@snapend
-
-@snap[east span-50]
-### Dockerfile
-@snapend
-
----
-
 
 
 
