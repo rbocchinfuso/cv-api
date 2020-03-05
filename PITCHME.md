@@ -41,10 +41,14 @@ Learn more here: http://bit.ly/372imHl
 
 ---
 
-
+@snap[east span-50 text-center]
+Dockerfile!
+@snapend
 
 @snap[west span-40]
----?code=./Dockerfile&lang=dockerfile&color=black
+---color=#000000
+---lang=dockerfile
+---?code=./Dockerfile
 @snapend
 
 
