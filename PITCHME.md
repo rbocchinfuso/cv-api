@@ -135,7 +135,7 @@ Learn more here: http://bit.ly/372imHl
 ### Automagic NGINX Config
 @snapend
 
-```json zoom-15
+```zoom-15
 server {
   listen 80;
   listen [::]:80;
