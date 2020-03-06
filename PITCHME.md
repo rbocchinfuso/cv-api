@@ -135,7 +135,7 @@ Learn more here: http://bit.ly/372imHl
 ### Automagic NGINX Config
 @snapend
 
-```zoom-15
+```zoom-20
 server {
   listen 80;
   listen [::]:80;
