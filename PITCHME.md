@@ -167,7 +167,12 @@ server {
 ---
 @title[Demo Time]
 
----?image=assets/img/code.jpg&opacity=60&position=left&size=45% 100%
+@snap[opacity=60 position=left size=45% 100%]
+![IMAGE](image=assets/img/code.jpg)
+@snapend
+
+
+#---?image=assets/img/code.jpg&opacity=60&position=left&size=45% 100%
 
 @snap[north-east span-50 text-center]
 ## Demo Time
