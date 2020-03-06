@@ -182,34 +182,18 @@ http://bit.ly/2v1b35G
 
 ---
 
+@title[Pipeline]
+
+@snap[north-east span-100 text-right]
+## Pipeline
+@snapend
+
 @startuml
-digraph G {
-  node [shape=record, fillcolor=lightgrey, style="filled,rounded"]
-  capture [label="Traffic Capture"]
-  capture -> analyze
-
-  subgraph cluster0 {
-    label = "Same as\nNetwork Capture Assessment"
-    labeljust = left
-    style = "filled,rounded"
-    color = deepskyblue
-    analyze [label="Endpoint and Flow Analysis"]
-    analyze:0 -> known:n
-    analyze:1 -> unknown:n
-    known [label="Known Protocol Analysis"]
-    unknown [label="Unknown Protocol Decode"]
-  }
-
-  known:s -> enum:0
-  unknown:s -> enum:1
-  enum [label="Protocol Enumeration"]
-  enum -> fuzz
-  fuzz [label="Protocol Fuzzing"]
-  fuzz -> exploit
-  exploit [label="Protocol Exploitation"]
-}
+actor Alice #yellow
+participant Bob
+Alice->Bob: Auth Request
+Bob->Alice: Auth Response
 @enduml
-
 
 
 
