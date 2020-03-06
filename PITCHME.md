@@ -168,12 +168,12 @@ server {
 
 @title[Demo Time]
 
-@snap[north-east span-50 postion-right]
+@snap[north-east span-70 text-right]
 #### Get ready for some @fa[magic] @color[#e49436](Magic)
-##### @color[#e49436](Demo Time)
+##### @color[#A0C865](Demo Time)
 @snapend
 
-@snap[south-east span-55 text-left]
+@snap[south-east span-40 text-left]
 Test API Request:
 http://bit.ly/2wA1Ykw
 Read full API docs:
