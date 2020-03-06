@@ -21,12 +21,12 @@ Learn more here: http://bit.ly/372imHl
 ---
 @title[My Pipeline]
 
-@snap[south span-100]
+@snap[north span-100]
 ## My Pipeline
 @snapend
 
 @snap[span-100]
-![IMAGE](assets/img/mypipeline.png)
+![IMAGE](assets/img/mypipeline.svg)
 @snapend
 
 ---
@@ -38,12 +38,12 @@ Learn more here: http://bit.ly/372imHl
 
 @snap[west span-100]
 @ul[list-spaced-bullets text-09]
-- Just **for fun**.
-- Because **I can**.
-- Inflight **boredom** and shitty United WiFi.
-- Because we **learn by doing**.
-- Because we live in an **API driven world**.
-- Because my dad taught me to not ask for things you can't do yourself.
+- Just **for fun**
+- Because **I can**
+- Inflight **boredom** and shitty United WiFi
+- Because we **learn by doing**
+- Because we live in an **API driven world**
+- Because my dad taught me to not expect others to do things you can't do yourself
 @ulend
 @snapend
 
@@ -56,7 +56,7 @@ Learn more here: http://bit.ly/372imHl
 
 @snap[west span-100]
 @ul[list-spaced-bullets text-07]
-- **Create** a JSON structure to store CV details.
+- **Create** a JSON structure to store CV details
 - **Build** API with Python and Flash
 - **Package** and containerize API
 - **Test** and document the API with Postman
@@ -72,7 +72,7 @@ Learn more here: http://bit.ly/372imHl
 @code[text zoom-12](./doc/tree.pub)
 
 @snap[east span-50]
-### Project Overview
+### @color[#e49436](Project Overview)
 @snapend
 
 @snap[south span-100]
@@ -154,10 +154,10 @@ server {
 
 @snap[west span-100 text-09]
 @ul[list-spaced-bullets]
-- Deploy NGINX container and expose port 80
-- Build and deploy cv-api container from source
-- Expose port 5000 to NGINX revese proxy
-- Register virtual hostname "cv.bocchinfuso.net"
+- **Deploy NGINX** container and expose port 80
+- **Build and deploy cv-api** container from source
+- **Expose port 5000 to NGINX** revese proxy
+- **Register** virtual hostname "cv.bocchinfuso.net"
 - Allow user with bearer token make a CV API REST calls
 @ulend
 @snapend
