@@ -165,15 +165,18 @@ server {
 
 
 ---
-@title[Demo?]
+@title[Demo Time]
 
-@snap[north span-100]
+---?image=assets/img/code.jpg&opacity=60&position=left&size=45% 100%
+
+@snap[north-east span-50]
 ## Demo Time
 @snapend
 
 
 
-@snap[south span-100]
+
+@snap[south-east span-50]
 Test API Request:
 http://bit.ly/2wA1Ykw
 Read full API docs:
