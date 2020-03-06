@@ -177,7 +177,7 @@ server {
 @snapend
 
 
-@snap[south-east span-60 text-center]
+@snap[south-east span-60 postion-right]
 Test API Request: http://bit.ly/2wA1Ykw
 Read full API docs: http://bit.ly/2v1b35G
 @snapend
