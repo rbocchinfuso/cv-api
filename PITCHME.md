@@ -91,7 +91,6 @@ Learn more here: http://bit.ly/372imHl
 
 ---
 @title[CV in JSON]
-
 @code[json](./cv.json)
 
 @snap[north span-100]
@@ -185,10 +184,7 @@ http://bit.ly/2v1b35G
 
 ---
 @title[Appendix]
-
-@snap[west span-40]
 @code[markdown zoom-07](./PITCHME.md)
-@snapend
 
 @snap[north-east span-50]
 ### Appendix
