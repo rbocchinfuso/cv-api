@@ -168,9 +168,7 @@ server {
 
 @title[Demo Time]
 
-@snap[north-east span-55 postion-right]
-#### Get ready for some @fa[magic] @color[#e49436](Magic)
-@snap[east span-60]
+
 
 
 
