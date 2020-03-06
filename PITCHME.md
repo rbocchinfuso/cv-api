@@ -185,7 +185,7 @@ http://bit.ly/2v1b35G
 ---
 @title[Appendix]
 @snap[north-east span-50]
-#### @color[#e49436](Appendix)
+### @color[#e49436](Appendix)
 @snapend
 
 ```markdown
