@@ -15,19 +15,18 @@
 
 @snap[south span-100]
 https://github.com/rbocchinfuso/cv-api
-
 Learn more here: http://bit.ly/372imHl
 @snapend
 
 ---
 @title[My Pipeline]
 
-@snap[north span-100]
+@snap[south span-100]
 ## My Pipeline
 @snapend
 
 @snap[span-100]
-![IMAGE](assets/img/pipeline.png)
+![IMAGE](assets/img/mypipeline.png)
 @snapend
 
 ---
