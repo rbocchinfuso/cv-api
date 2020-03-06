@@ -184,7 +184,10 @@ http://bit.ly/2v1b35G
 
 ---
 @title[Appendix]
-@snap[west span-60]
+@snap[north-east span-50]
+## Appendix
+@snapend
+
 ```markdown
 @title[Dockerfile]
 
@@ -200,20 +203,11 @@ http://bit.ly/2v1b35G
 @[15-18, zoom-11](Set app directory, install requirements, start application.)
 @snapend
 ```
-@snapend
 
-@snap[north-east span-50]
-## Appendix
-@snapend
+My Preso As Code: http://bit.ly/2vNlXfJ
+CV API Trello Board: http://bit.ly/2PTC3uX
+Timeline: A lot. It's my lifestyle.
 
-@snap[south-east span-50]
-My Preso As Code:
-http://bit.ly/2vNlXfJ
-CV API Trello Board:
-http://bit.ly/2PTC3uX
-Timeline: 
-A lot. It's my lifestyle.
-@snapend
 
 
 
