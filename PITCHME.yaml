@@ -55,6 +55,12 @@ footnote : "Digital Innvation 2020 Kickoff - Atlantic City, NJ - March 11 - 13, 
 published : true
 
 #
+# Wireless Remote Control Settings
+# Doc: gitpitch.com/docs/settings/remote-control/
+#
+remote-control : true
+
+#
 # Twitter Card Settings [Pro Only]
 # Doc: https://gitpitch.com/docs/settings/twitter-card
 #
