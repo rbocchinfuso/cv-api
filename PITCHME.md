@@ -70,7 +70,7 @@ Learn more here: http://bit.ly/372imHl
 
 ---
 @title[My Project]
-@code[zoom-07](./doc/tree.txt)
+@code[text zoom-07](./doc/tree.txt)
 
 @snap[east span-50]
 ### Project Overview
