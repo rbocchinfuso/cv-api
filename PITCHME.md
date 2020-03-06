@@ -58,7 +58,6 @@ Learn more here: http://bit.ly/372imHl
 @snap[west span-100]
 @ul[list-spaced-bullets text-07]
 - Create a JSON structure to store CV details.
--- Thank you to https://jsonresume.org/ for providing an existing standard.
 - Build API with Python and Flash
 - Package and containerize API
 - Test and document the API with Postman
