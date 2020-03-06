@@ -2,22 +2,20 @@
 
 ---
 
----?color=linear-gradient(180deg, white 75%, black 25%)
-@title[Customize Slide Layout]
-
 @snap[north-west span-55]
 ## The CV API Narrative
 @snapend
 
-@snap[north-east span-45]
-![IMAGE](assets/img/narrative.jpg)
+@snap[east span-45]
+![IMAGE](assets/img/storybook.png)
 @snapend
 
-@snap[center span-45]
+@snap[center span-100]
 https://github.com/rbocchinfuso/cv-api
 @snapend
 
 @snap[south span-100]
+https://github.com/rbocchinfuso/cv-api
 Learn more here: http://bit.ly/372imHl
 @snapend
 
