@@ -154,7 +154,7 @@ server {
 @snapend
 
 @snap[west span-100]
-@ul[list-spaced-bullets text-10]
+@ul[list-spaced-bullets text-08]
 - Deploy NGINX container and expose port 80
 - Build and deploy cv-api container from source
 - Expose port 5000 to NGINX revese proxy
