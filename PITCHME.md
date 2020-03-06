@@ -23,11 +23,11 @@ Learn more here: http://bit.ly/372imHl
 @title[My Pipeline]
 
 @snap[north span-100]
-![IMAGE](assets/img/pipeline.png)
+## My Pipeline
 @snapend
 
-@snap[south span-100]
-## My Pipeline
+@snap[span-100]
+![IMAGE](assets/img/pipeline.png)
 @snapend
 
 ---
