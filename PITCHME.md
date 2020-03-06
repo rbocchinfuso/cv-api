@@ -61,10 +61,14 @@ Learn more here: http://bit.ly/372imHl
 - **Package** and containerize API
 - **Test** and document the API with Postman
 - **Document** with a good README.md
-- **CI/CD pipeline** (Desktop -> Github -> Dockerhub build -> Watchtower deploy)
+- **CI/CD pipeline**
 - **Test** with lgtm, sonararcloud, loader.io
 - **Instrument and monitor** with Sentry, Prometheus and Grafana
 @ulend
+@snapend
+
+@snap[south-east span-40]
+![IMAGE](assets/img/deploy.svg)
 @snapend
 
 ---
@@ -180,19 +184,6 @@ http://bit.ly/2v1b35G
 @snapend
 
 ---
-
-@title[Pipeline]
-
-@snap[north-east span-100 text-right]
-## Pipeline
-@snapend
-
-@startuml
-actor Alice #yellow
-participant Bob
-Alice->Bob: Auth Request
-Bob->Alice: Auth Response
-@enduml
 
 
 
