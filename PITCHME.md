@@ -186,15 +186,15 @@ http://bit.ly/2v1b35G
 ---
 @title[Appendix]
 
-@snap[north span-100]
-## My Pipeline
+@snap[west span-40]
+@code[markdown zoom-07](./PITCHME.md)
 @snapend
 
-@snap[east span-50 text-09]
-@code[text zoom-12](./PITCHME.md)
+@snap[north-east span-50]
+### Appendix
 @snapend
 
-@snap[east span-50 text-09]
+@snap[south-east span-50]
 - My Preso As Code: http://bit.ly/2vNlXfJ
 - CV API Trello Board: http://bit.ly/2PTC3uX
 - Timeline: A lot. It's my lifestyle.
