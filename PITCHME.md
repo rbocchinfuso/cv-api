@@ -168,19 +168,18 @@ server {
 
 @title[Demo Time]
 
+@snap[east span-60]
+#### Get ready for some @fa[magic] @color[#e49436](Magic)
+@snap[east span-60]
+
 @snap[north-east span-50 text-center]
-### Demo Time
+##### @color[#e49436](Demo Time)
 @snapend
 
-@snap[east span-50]
-#### Get ready for some @fa[magic] @color[#e49436](Magic)
-@snap[east span-100]
 
-@snap[south-east span-50 text-center]
-Test API Request:
-http://bit.ly/2wA1Ykw
-Read full API docs:
-http://bit.ly/2v1b35G
+@snap[south-east span-60 text-center]
+Test API Request: http://bit.ly/2wA1Ykw
+Read full API docs: http://bit.ly/2v1b35G
 @snapend
 
 ---
