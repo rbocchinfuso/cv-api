@@ -74,7 +74,7 @@ Learn more here: http://bit.ly/372imHl
 
 
 @snap[east span-50]
-### Project Overview
+## Project Overview
 @snapend
 
 @snap[south span-100]
@@ -95,7 +95,7 @@ Learn more here: http://bit.ly/372imHl
 
 
 @snap[north span-100]
-#### CV in JSON
+## CV in JSON
 @snapend
 
 ---
@@ -104,7 +104,7 @@ Learn more here: http://bit.ly/372imHl
 @code[dockerfile zoom-07](./Dockerfile)
 
 @snap[east span-50]
-### Dockerfile
+## Dockerfile
 @snapend
 
 @snap[south span-100]
