@@ -51,13 +51,14 @@ Learn more here: http://bit.ly/372imHl
 ---
 @title[What?]
 
-@snap[east span-50 text-center]
-## Why?
+@snap[north-east span-50 text-right]
+## What?
 @snapend
 
-@snap[north span-100]
+@snap[west span-55]
 @ul[list-spaced-bullets text-07]
 - Create a JSON structure to store CV details.
+-- Thank you to https://jsonresume.org/ for providing an existing standard.
 - Build API with Python and Flash
 - Package and containerize API
 - Test and document the API with Postman
