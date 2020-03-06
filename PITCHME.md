@@ -55,7 +55,7 @@ Learn more here: http://bit.ly/372imHl
 ## What?
 @snapend
 
-@snap[west span-55]
+@snap[west span-100]
 @ul[list-spaced-bullets text-07]
 - Create a JSON structure to store CV details.
 -- Thank you to https://jsonresume.org/ for providing an existing standard.
