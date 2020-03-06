@@ -2,7 +2,7 @@
 
 ---
 
-@snap[north-west span-55]
+@snap[west span-55]
 ## The CV API Narrative
 @snapend
 
@@ -10,12 +10,9 @@
 ![IMAGE](assets/img/storybook.png)
 @snapend
 
-@snap[center span-100]
-https://github.com/rbocchinfuso/cv-api
-@snapend
-
 @snap[south span-100]
 https://github.com/rbocchinfuso/cv-api
+
 Learn more here: http://bit.ly/372imHl
 @snapend
 
