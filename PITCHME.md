@@ -69,6 +69,24 @@ Learn more here: http://bit.ly/372imHl
 @snapend
 
 ---
+@title[My Project]
+@code[zoom-07](./doc/tree.txt)
+
+@snap[east span-50]
+### Project Overview
+@snapend
+
+@snap[south span-100]
+@[4, zoom-11](Config file which stored sensative data and excluded with .gitignore)
+@[5, zoom-11](The applicaiton)
+@[7, zoom-11](CV JSON file)
+@[9, zoom-11](docker-compose.yaml file that constructs applicaiton infrastucture)
+@[11, zoom-11](Dockerfile to containerize application)
+@[13-14, zoom-11](This presentation)
+@[15, zoom-11](README.md that tells others how to use my app)
+@snapend
+
+---
 
 @title[CV in JSON]
 
