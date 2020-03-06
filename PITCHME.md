@@ -70,16 +70,13 @@ Learn more here: http://bit.ly/372imHl
 
 ---
 
----
-
 @title[CV in JSON]
 
----?code=./cv.json&lang=json zoom-21
+---?code=./cv.json&lang=json
 
 @snap[north span-100]
 #### CV in JSON
 @snapend
-
 
 ---
 @title[Dockerfile]
