@@ -57,14 +57,14 @@ Learn more here: http://bit.ly/372imHl
 
 @snap[west span-100]
 @ul[list-spaced-bullets text-07]
-- Create a JSON structure to store CV details.
-- Build API with Python and Flash
-- Package and containerize API
-- Test and document the API with Postman
-- Write a good README.md
-- Build CI/CD pipeline (Desktop -> Github -> Dockerhub build -> Watchtower deploy)
-- Test with lgtm, sonararcloud, loader.io
-- Instrument and monitor with Sentry, Prometheus and Grafana
+- **Create** a JSON structure to store CV details.
+- **Build** API with Python and Flash
+- **Package** and containerize API
+- **Test** and document the API with Postman
+- **Document** with a good README.md
+- **CI/CD pipeline** (Desktop -> Github -> Dockerhub build -> Watchtower deploy)
+- **Test** with lgtm, sonararcloud, loader.io
+- **Instrument and monitor** with Sentry, Prometheus and Grafana
 @ulend
 @snapend
 
