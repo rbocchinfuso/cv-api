@@ -185,7 +185,7 @@ http://bit.ly/2v1b35G
 ---
 @title[Appendix]
 @snap[north-east span-50]
-## Appendix
+#### @color[#e49436](Appendix)
 @snapend
 
 ```markdown
@@ -204,9 +204,9 @@ http://bit.ly/2v1b35G
 @snapend
 ```
 
-My Preso As Code: http://bit.ly/2vNlXfJ
-CV API Trello Board: http://bit.ly/2PTC3uX
-Timeline: A lot. It's my lifestyle.
+- My Preso As Code: http://bit.ly/2vNlXfJ
+- CV API Trello Board: http://bit.ly/2PTC3uX
+- Timeline: A lot. It's my lifestyle.
 
 
 
