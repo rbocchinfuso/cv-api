@@ -119,23 +119,23 @@ Learn more here: http://bit.ly/372imHl
 @code[dockerfile zoom-07](./docker-compose.yaml)
 
 @snap[east span-50]
-### Dockerfile Compose
+### Docker Compose File
 @snapend
 
 @snap[south span-100]
-@[2-10, zoom-11](Starts nginx contianer for reverse proxy)
+@[2-10, zoom-11](Starts NGINX contianer for reverse proxy)
 @[11-24, zoom-11](Starts CV API container and application)
-@[24, zoom-11](Registered with nginx proxy as reverse proxy address)
-@[26-29, zoom-11](Private network on which nginx communicates with CV API)
+@[24, zoom-11](Registered with NGINX proxy as reverse proxy address)
+@[26-29, zoom-11](Private network on which NGINX communicates with CV API)
 @snapend
 ---
 @title[Nginx Reverse Proxy]
 
-@snap[east span-50]
-### Automaginc Nginx Config
+@snap[north span-100]
+### Automagic NGINX Config
 @snapend
 
-```
+```json zoom-20
 server {
   listen 80;
   listen [::]:80;
