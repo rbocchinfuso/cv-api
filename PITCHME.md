@@ -52,7 +52,7 @@ Learn more here: http://bit.ly/372imHl
 @title[What?]
 
 @snap[north-east span-50 text-right]
-## What?
+## How?
 @snapend
 
 @snap[west span-100]
@@ -69,6 +69,20 @@ Learn more here: http://bit.ly/372imHl
 @snapend
 
 ---
+
+---
+
+@title[CV in JSON]
+
+---?code=./cv.json&lang=json zoom-21
+
+@snap[north span-100]
+#### CV in JSON
+@snapend
+
+
+---
+@title[Dockerfile]
 
 @code[dockerfile zoom-07](./Dockerfile)
 
