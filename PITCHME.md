@@ -203,11 +203,11 @@ http://bit.ly/2v1b35G
 @[15-18, zoom-11](Set app directory, install requirements, start application.)
 @snapend
 ```
-
+@snap[east text-left]
 - My Preso As Code: http://bit.ly/2vNlXfJ
 - CV API Trello Board: http://bit.ly/2PTC3uX
 - Timeline: A lot. It's my lifestyle.
-
+@snapend
 
 
 
