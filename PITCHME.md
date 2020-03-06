@@ -72,9 +72,8 @@ Learn more here: http://bit.ly/372imHl
 @title[My Project]
 @code[text zoom-12](./doc/tree.pub)
 
-
 @snap[east span-50]
-## Project Overview
+### Project Overview
 @snapend
 
 @snap[south span-100]
@@ -93,9 +92,8 @@ Learn more here: http://bit.ly/372imHl
 
 @code[json](./cv.json)
 
-
 @snap[north span-100]
-## CV in JSON
+### CV in JSON
 @snapend
 
 ---
@@ -104,7 +102,7 @@ Learn more here: http://bit.ly/372imHl
 @code[dockerfile zoom-07](./Dockerfile)
 
 @snap[east span-50]
-## Dockerfile
+### Dockerfile
 @snapend
 
 @snap[south span-100]
@@ -113,16 +111,45 @@ Learn more here: http://bit.ly/372imHl
 @[15-18, zoom-11](Set app directory, install requirements, start application.)
 @snapend
 
-
 ---
 
+---
+@title[Dockerfile]
 
+@code[dockerfile zoom-07](./docker-compose.yaml)
 
-@snap[east span-50 text-center]
-## Now It's **Your** Turn
+@snap[east span-50]
+### Dockerfile Compose
 @snapend
 
-@snap[south-east span-50 text-center text-06]
-[Download GitPitch Desktop @fa[external-link]](https://gitpitch.com/docs/getting-started/tutorial/)
+@snap[south span-100]
+@[2-10, zoom-11](Starts nginx contianer for reverse proxy)
+@[11-24, zoom-11](Starts CV API container and application)
+@[24, zoom-11](Registered with nginx proxy as reverse proxy address)
+@[26-29, zoom-11](Private network on which nginx communicates with CV API)
 @snapend
+---
+@title[Nginx Reverse Proxy]
+
+@snap[east span-50]
+### Automaginc Nginx Config
+@snapend
+
+```
+server {
+  listen 80;
+  listen [::]:80;
+
+  server_name cv.bocchinfuso.net;
+
+  location / {
+      proxy_pass http://localhost:5000/;
+  }
+}
+```
+
+
+
+
+
 
