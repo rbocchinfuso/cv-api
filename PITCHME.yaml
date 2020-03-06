@@ -60,10 +60,6 @@ published : true
 #
 remote-control : true
 
-charts : true
-eager-loading : true
-
-
 #
 # Twitter Card Settings [Pro Only]
 # Doc: https://gitpitch.com/docs/settings/twitter-card
