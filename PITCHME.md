@@ -33,11 +33,11 @@ Learn more here: http://bit.ly/372imHl
 ---
 @title[Why?]
 
-@snap[north-east span-50 text-right]
+@snap[north-east span-100 text-right]
 ## Why?
 @snapend
 
-@snap[west span-55]
+@snap[west span-100]
 @ul[list-spaced-bullets text-09]
 - Just **for fun**.
 - Because **I can**.
@@ -51,7 +51,7 @@ Learn more here: http://bit.ly/372imHl
 ---
 @title[How?]
 
-@snap[north-east span-50 text-right]
+@snap[north-east span-100 text-right]
 ## How?
 @snapend
 
@@ -149,12 +149,12 @@ server {
 ---
 @title[What?]
 
-@snap[north-east span-50 text-right]
+@snap[north-east span-100 text-right]
 ## What?
 @snapend
 
 @snap[west span-100]
-@ul[list-spaced-bullets text-12]
+@ul[list-spaced-bullets text-10]
 - Deploy NGINX container and expose port 80
 - Build and deploy cv-api container from source
 - Expose port 5000 to NGINX revese proxy
