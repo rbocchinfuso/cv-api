@@ -184,7 +184,7 @@ http://bit.ly/2v1b35G
 
 ---
 @title[Appendix]
-@snap[west span-50]
+@snap[west span-60]
 ```markdown
 @title[Dockerfile]
 
@@ -203,15 +203,15 @@ http://bit.ly/2v1b35G
 @snapend
 
 @snap[north-east span-50]
-### Appendix
+## Appendix
 @snapend
 
 @snap[south-east span-50]
-- My Preso As Code:
+My Preso As Code:
 http://bit.ly/2vNlXfJ
-- CV API Trello Board:
+CV API Trello Board:
 http://bit.ly/2PTC3uX
-- Timeline: 
+Timeline: 
 A lot. It's my lifestyle.
 @snapend
 
