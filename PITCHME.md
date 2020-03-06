@@ -59,9 +59,9 @@ Learn more here: http://bit.ly/372imHl
 - **Create** a JSON structure to store CV details
 - **Build** API with Python and Flash
 - **Package** and containerize API
-- **Test** and document the API with Postman
+- **Test** and document** the API with Postman
 - **Document** with a good README.md
-- **CI/CD pipeline**
+- **CI/CD** pipeline
 - **Test** with lgtm, sonararcloud, loader.io
 - **Instrument and monitor** with Sentry, Prometheus and Grafana
 @ulend
@@ -184,8 +184,21 @@ http://bit.ly/2v1b35G
 @snapend
 
 ---
+@title[Appendix]
 
+@snap[north span-100]
+## My Pipeline
+@snapend
 
+@snap[east span-50 text-09]
+@code[text zoom-12](./PITCHME.md)
+@snapend
+
+@snap[east span-50 text-09]
+- My Preso As Code: http://bit.ly/2vNlXfJ
+- CV API Trello Board: http://bit.ly/2PTC3uX
+- Timeline: A lot. It's my lifestyle.
+@snapend
 
 
 
