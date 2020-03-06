@@ -67,7 +67,7 @@ Learn more here: http://bit.ly/372imHl
 @ulend
 @snapend
 
-@snap[south-east span-40]
+@snap[east span-40]
 ![IMAGE](assets/img/deploy.svg)
 @snapend
 
