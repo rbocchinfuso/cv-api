@@ -49,7 +49,7 @@ Learn more here: http://bit.ly/372imHl
 @snapend
 
 ---
-@title[What?]
+@title[How?]
 
 @snap[north-east span-50 text-right]
 ## How?
@@ -87,7 +87,6 @@ Learn more here: http://bit.ly/372imHl
 @snapend
 
 ---
-
 @title[CV in JSON]
 
 @code[json](./cv.json)
@@ -112,8 +111,6 @@ Learn more here: http://bit.ly/372imHl
 @snapend
 
 ---
-
----
 @title[Dockerfile]
 
 @code[dockerfile zoom-07](./docker-compose.yaml)
@@ -128,6 +125,7 @@ Learn more here: http://bit.ly/372imHl
 @[24, zoom-11](Registered with NGINX proxy as reverse proxy address)
 @[26-29, zoom-11](Private network on which NGINX communicates with CV API)
 @snapend
+
 ---
 @title[Nginx Reverse Proxy]
 
@@ -147,6 +145,27 @@ server {
   }
 }
 ```
+
+---
+@title[What?]
+
+@snap[north span-100]
+## What?
+@snapend
+
+@snap[west span-100]
+@ul[list-spaced-bullets text-07]
+- Deploys NGINC container and exposes port 80
+- Builds cv-api container from source, exposes port 5000 and creates revese proxy to cv-api from nginx contianer using virtual hostname "cv.bocchinfuso.net"
+- Allows user with bearer token make a REST GET for CV data
+@ulend
+@snapend
+
+@snap[south span-100]
+Test API Request: https://reqbin.com/c-xyo316m9
+Read full API docs:  http://bit.ly/2v1b35G
+@snapend
+
 
 
 
