@@ -155,14 +155,16 @@ server {
 
 @snap[west span-100]
 @ul[list-spaced-bullets text-07]
-- Deploys NGINC container and exposes port 80
-- Builds cv-api container from source, exposes port 5000 and creates revese proxy to cv-api from nginx contianer using virtual hostname "cv.bocchinfuso.net"
-- Allows user with bearer token make a REST GET for CV data
+- Deploy NGINX container and expose port 80
+- Build and deploy cv-api container from source
+- Exposes port 5000 to NGINX revese proxy
+- Register virtual hostname "cv.bocchinfuso.net"
+- Allow user with bearer token make a CV API REST calls
 @ulend
 @snapend
 
 @snap[south span-100]
-Test API Request: https://reqbin.com/c-xyo316m9
+Test API Request: http://bit.ly/2wA1Ykw
 Read full API docs:  http://bit.ly/2v1b35G
 @snapend
 
