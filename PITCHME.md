@@ -25,7 +25,7 @@ Learn more here: http://bit.ly/372imHl
 ## My Pipeline
 @snapend
 
-@snap[span-100]
+@snap[south span-100]
 ![IMAGE](assets/img/mypipeline.svg)
 @snapend
 
