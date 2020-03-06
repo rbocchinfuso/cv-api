@@ -77,7 +77,7 @@ A[Git Commit] -->B(Docker Hub Build)
 
 ### What
 - Deploys nginx docker container and exposes port 80
-- Builds cv-api docker container from source, exposed port 5000 and creates revese proxy to cv-api from nginx contianer using virtual hostname "cv.bocchinfuso.net"
+- Builds cv-api docker container from source, exposes port 5000 and creates revese proxy to cv-api from nginx contianer using virtual hostname "cv.bocchinfuso.net"
 - Allows user with bearer token make a REST GET for CV data
 	- [Run CV API GET Request](https://reqbin.com/c-xyo316m9) 
 ```curl -H "Accept: application/json" -H "Authorization: Bearer Gj4TUbT209T0YEbmxwSZ9MgdC7AtRr6D" http://cv.bocchinfuso.net/app/api/v1.0/cv```
