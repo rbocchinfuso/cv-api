@@ -184,7 +184,21 @@ http://bit.ly/2v1b35G
 
 ---
 @title[Appendix]
-@code[markdown zoom-07](./PITCHME.md)
+```markdown
+@title[Dockerfile]
+
+@code[dockerfile zoom-07](./Dockerfile)
+
+@snap[east span-50]
+### @color[#e49436](Dockerfile)
+@snapend
+
+@snap[south span-100]
+@[1-9, zoom-11](Pull Alpline Linux image, update and install Python (JeOS))
+@[10-14, zoom-11](Copy app code into container.)
+@[15-18, zoom-11](Set app directory, install requirements, start application.)
+@snapend
+```
 
 @snap[north-east span-50]
 ### Appendix
