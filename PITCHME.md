@@ -2,20 +2,18 @@
 
 ---
 
-### Add Some Slide Candy
-
-![IMAGE](assets/img/presentation.png)
-
----?color=linear-gradient(180deg, white 75%, black 25%)
-@title[Customize Slide Layout]
-
 @snap[west span-55]
-## The Narrative
+## The CV API Narrative
 @snapend
 
 @snap[north-east span-45]
 ![IMAGE](assets/img/narrative.jpg)
 @snapend
+
+@snap[north-east span-45]
+### https://github.com/rbocchinfuso/cv-api
+@snapend
+
 
 @snap[south span-100]
 Learn more here: http://bit.ly/372imHl
