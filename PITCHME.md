@@ -33,7 +33,7 @@ Learn more here: http://bit.ly/372imHl
 ---
 @title[Why?]
 
-@snap[east span-50 text-center]
+@snap[north-east span-50 text-right]
 ## Why?
 @snapend
 
@@ -149,12 +149,12 @@ server {
 ---
 @title[What?]
 
-@snap[north span-100]
+@snap[north-east span-50 text-right]
 ## What?
 @snapend
 
 @snap[west span-100]
-@ul[list-spaced-bullets text-08]
+@ul[list-spaced-bullets text-12]
 - Deploy NGINX container and expose port 80
 - Build and deploy cv-api container from source
 - Expose port 5000 to NGINX revese proxy
@@ -163,9 +163,21 @@ server {
 @ulend
 @snapend
 
+
+---
+@title[Demo?]
+
+@snap[north span-100]
+## Demo Time
+@snapend
+
+
+
 @snap[south span-100]
-Test API Request: http://bit.ly/2wA1Ykw
-Read full API docs:  http://bit.ly/2v1b35G
+Test API Request:
+http://bit.ly/2wA1Ykw
+Read full API docs:
+http://bit.ly/2v1b35G
 @snapend
 
 
