@@ -116,7 +116,7 @@ Learn more here: http://bit.ly/372imHl
 @code[dockerfile zoom-07](./docker-compose.yaml)
 
 @snap[east span-50]
-### Docker Compose File
+### @color[#e49436](Docker Compose File)
 @snapend
 
 @snap[south span-100]
@@ -164,22 +164,15 @@ server {
 @snapend
 
 
----
+---?image=assets/img/code.jpg&opacity=60&position=left&size=45% 100%
+
 @title[Demo Time]
 
-@snap[opacity=60 position=left size=45% 100%]
-![IMAGE](image=assets/img/code.jpg)
-@snapend
-
-
-#---?image=assets/img/code.jpg&opacity=60&position=left&size=45% 100%
-
 @snap[north-east span-50 text-center]
-## Demo Time
+### Demo Time
 @snapend
 
-
-
+#### Get ready for some @fa[magic] @color[#e49436](Magic)
 
 @snap[south-east span-50 text-center]
 Test API Request:
@@ -188,6 +181,35 @@ Read full API docs:
 http://bit.ly/2v1b35G
 @snapend
 
+---
+
+@startuml
+digraph G {
+  node [shape=record, fillcolor=lightgrey, style="filled,rounded"]
+  capture [label="Traffic Capture"]
+  capture -> analyze
+
+  subgraph cluster0 {
+    label = "Same as\nNetwork Capture Assessment"
+    labeljust = left
+    style = "filled,rounded"
+    color = deepskyblue
+    analyze [label="Endpoint and Flow Analysis"]
+    analyze:0 -> known:n
+    analyze:1 -> unknown:n
+    known [label="Known Protocol Analysis"]
+    unknown [label="Unknown Protocol Decode"]
+  }
+
+  known:s -> enum:0
+  unknown:s -> enum:1
+  enum [label="Protocol Enumeration"]
+  enum -> fuzz
+  fuzz [label="Protocol Fuzzing"]
+  fuzz -> exploit
+  exploit [label="Protocol Exploitation"]
+}
+@enduml
 
 
 
