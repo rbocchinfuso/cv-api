@@ -92,7 +92,7 @@ Learn more here: http://bit.ly/372imHl
 @code[json](./cv.json)
 
 @snap[north span-100]
-### CV in JSON
+### @color[#e49436](CV in JSON)
 @snapend
 
 ---
@@ -101,7 +101,7 @@ Learn more here: http://bit.ly/372imHl
 @code[dockerfile zoom-07](./Dockerfile)
 
 @snap[east span-50]
-### Dockerfile
+### @color[#e49436](Dockerfile)
 @snapend
 
 @snap[south span-100]
@@ -130,7 +130,7 @@ Learn more here: http://bit.ly/372imHl
 @title[Nginx Reverse Proxy]
 
 @snap[north span-100]
-### Automagic NGINX Config
+### @color[#e49436](Automagic NGINX Config)
 @snapend
 
 ```text zoom-15
@@ -172,7 +172,9 @@ server {
 ### Demo Time
 @snapend
 
+@snap[east span-50]
 #### Get ready for some @fa[magic] @color[#e49436](Magic)
+@snap[east span-100]
 
 @snap[south-east span-50 text-center]
 Test API Request:
