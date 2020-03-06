@@ -1,7 +1,8 @@
 @title[Title Slide]
+
 # My **DevOps** Project
 
-
+---
 @title[The Narrative]
 
 @snap[west span-55]
@@ -29,6 +30,7 @@ Learn more here: http://bit.ly/372imHl
 ## My Pipeline
 @snapend
 
+---
 @title[Why?]
 
 @snap[east span-50 text-center]
@@ -46,7 +48,7 @@ Learn more here: http://bit.ly/372imHl
 @ulend
 @snapend
 
-
+---
 @title[What?]
 
 @snap[north-east span-50 text-right]
@@ -68,7 +70,7 @@ Learn more here: http://bit.ly/372imHl
 
 ---
 @title[My Project]
-@code[text zoom-07](./doc/tree.pub)
+@code[text zoom-12(./doc/tree.pub)
 
 
 @snap[east span-50]
@@ -85,17 +87,18 @@ Learn more here: http://bit.ly/372imHl
 @[15, zoom-11](README.md that tells others how to use my app)
 @snapend
 
+---
 
 @title[CV in JSON]
 
----?code=./cv.json&lang=json
+@code[json](./cv.json)
+
 
 @snap[north span-100]
 #### CV in JSON
 @snapend
 
-
-
+---
 @title[Dockerfile]
 
 @code[dockerfile zoom-07](./Dockerfile)
