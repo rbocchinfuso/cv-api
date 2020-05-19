@@ -7,7 +7,7 @@
 import json, configparser
 from flask import Flask, jsonify, make_response, g
 from flask_httpauth import HTTPTokenAuth
-import apminsight
+# import apminsight
 
 # Owned
 __author__ = 'Rich Bocchinfuso'
