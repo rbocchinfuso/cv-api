@@ -206,7 +206,7 @@ http://bit.ly/2v1b35G
 
 - My Preso As Code: http://bit.ly/2vNlXfJ
 - CV API Trello Board: http://bit.ly/2PTC3uX
-- Timeline: A lot. It's my lifestyle.
+- Timeline: It's my lifestyle.
 
 
 
