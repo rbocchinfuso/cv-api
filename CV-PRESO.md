@@ -16,7 +16,7 @@ By: Rich Bocchinfuso
 
 - [GitHub Repo](https://github.com/rbocchinfuso/cv-api)
 - [Project Blog](http://gotitsolutions.org/2020/02/06/dominate-thy-destiny/)
-- [This Preso-as-Code](https://github.com/rbocchinfuso/cv-api/CV-PRESO.md)
+- [This Preso-as-Code](https://github.com/rbocchinfuso/cv-api/blob/master/CV-PRESO.md)
 
 ---
 
@@ -256,7 +256,7 @@ server {
 ![bg left:30% 80%](https://icon-library.com/images/markdown-icon/markdown-icon-28.jpg)
 
 - Project Timeline: It's my lifestyle.
-- [This Preso-as-Code](https://github.com/rbocchinfuso/cv-api/CV-PRESO.md)
+- [This Preso-as-Code](https://github.com/rbocchinfuso/cv-api/blob/master/CV-PRESO.md)
 - [CV API Trello Board](http://bit.ly/2PTC3uX)
 
 _Note: [GitPitch](https://gitpitch.github.io/gitpitch/#/) is gone :cry:,  so I had to refactor [PITCHME.MD](https://github.com/rbocchinfuso/cv-api/PITCHME.md), which I did using [Marp](https://marp.app/)._
