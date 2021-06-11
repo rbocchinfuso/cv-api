@@ -63,7 +63,7 @@ By: [Rich Bocchinfuso](http://bocchinfuso.net/)
 - [**cv-api.py**](https://github.com/rbocchinfuso/cv-api/blob/master/cv-api.py): The applicaiton
 - [**cv.json**](https://github.com/rbocchinfuso/cv-api/blob/master/cv.json): JSON file containing CV details
 - [**CV-PRESO.md**](https://github.com/rbocchinfuso/cv-api/blob/master/CV-PRESO.md): Presentation-as-code :wink:
-- [**docker-compose.yml**](https://github.com/rbocchinfuso/cv-api/blob/master/docker-compose.yaml): File that constructs applicaiton infrastucture
+- [**docker-compose.yml**](https://github.com/rbocchinfuso/cv-api/blob/master/docker-compose.yaml): File that deploys application and dependencies
 - [**Dockerfile**](https://github.com/rbocchinfuso/cv-api/blob/master/Dockerfile): Build app container
 - [**README.md**](https://github.com/rbocchinfuso/cv-api/blob/master/README.md): Documentation
 
