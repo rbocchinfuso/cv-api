@@ -134,6 +134,7 @@ A[Git Commit] -->B(Docker Hub Build)
 ## History
 -  version 0.1 (initial release) - 2020/01/21
 -  version 0.2 (readme.md updates) - 2020/02/15
+-  version 0.3 (refactored preso-as-code using Mark) - 2020/06/10
 
 ## Credits
 Rich Bocchinfuso <<rbocchinfuso@gmail.com>>
