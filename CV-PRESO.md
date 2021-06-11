@@ -4,6 +4,7 @@ _class: lead
 paginate: true
 backgroundColor: #fff
 backgroundImage: url('https://marp.app/assets/hero-background.jpg')
+header: "CV API, Copyleft 2020 Rich Bocchinfuso"
 marp: true
 ---
 
@@ -11,8 +12,8 @@ marp: true
 
 # **My CV API**
 
-A DevOps Project
-By: Rich Bocchinfuso
+## A DevOps Project
+By: [Rich Bocchinfuso](http://bocchinfuso.net/)
 
 - [GitHub Repo](https://github.com/rbocchinfuso/cv-api)
 - [Project Blog](http://gotitsolutions.org/2020/02/06/dominate-thy-destiny/)
@@ -60,7 +61,7 @@ By: Rich Bocchinfuso
 
 - [**config.ini**](https://github.com/rbocchinfuso/cv-api/blob/master/config.ini): Config params; typically excluded from commit with .gitignore
 - [**cv-api.py**](https://github.com/rbocchinfuso/cv-api/blob/master/cv-api.py): The applicaiton
-- **cv.json**: JSON file containing CV details
+- [**cv.json**](https://github.com/rbocchinfuso/cv-api/blob/master/cv.json): JSON file containing CV details
 - [**CV-PRESO.md**](https://github.com/rbocchinfuso/cv-api/blob/master/CV-PRESO.md): Presentation-as-code :wink:
 - [**docker-compose.yml**](https://github.com/rbocchinfuso/cv-api/blob/master/docker-compose.yaml): File that constructs applicaiton infrastucture
 - [**Dockerfile**](https://github.com/rbocchinfuso/cv-api/blob/master/Dockerfile): Build app container
