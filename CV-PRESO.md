@@ -58,13 +58,13 @@ By: Rich Bocchinfuso
 
 ![bg left:30% 90%](https://imgur.com/2GBz7F1.jpg)
 
-- **config.ini**: Stores all config params and excluded from commit with .gitignore
-- **cv-api.py**: The applicaiton
+- [**config.ini**](https://github.com/rbocchinfuso/cv-api/blob/master/config.ini): Config params; typically excluded from commit with .gitignore
+- [**cv-api.py**](https://github.com/rbocchinfuso/cv-api/blob/master/cv-api.py): The applicaiton
 - **cv.json**: JSON file containing CV details
-- **CV-PRESO.md**: Presentation-as-code :wink:
-- **docker-compose.yml**: File that constructs applicaiton infrastucture
-- **Dockerfile**: Build app container
-- **README.md**: Documentation
+- [**CV-PRESO.md**](https://github.com/rbocchinfuso/cv-api/blob/master/CV-PRESO.md): Presentation-as-code :wink:
+- [**docker-compose.yml**](https://github.com/rbocchinfuso/cv-api/blob/master/docker-compose.yaml): File that constructs applicaiton infrastucture
+- [**Dockerfile**](https://github.com/rbocchinfuso/cv-api/blob/master/Dockerfile): Build app container
+- [**README.md**](https://github.com/rbocchinfuso/cv-api/blob/master/README.md): Documentation
 
 ---
 
