@@ -28,7 +28,7 @@ By: Rich Bocchinfuso
 
 # Why
 
-![bg left:30% 70%](https://lh3.googleusercontent.com/proxy/rMHGt_v0RSf_RQFRd7hRnL-0fZxrairLJ1LKjhX1jrV7lIk6s8fvJInWGX93q6wqFadmsJ_h5v7RdT5kX5M)
+![bg left:30% 80%](https://i.pinimg.com/originals/eb/f2/ee/ebf2eeffb64eb76b902a1aa574c9c413.png)
 
 - Just **for fun**
 - Because **I can**
@@ -207,7 +207,7 @@ networks:
 ---
 # Nginx Reverse Proxy
 
-![bg left:30% 80%](https://quiksite.com/wp-content/uploads/2016/09/Nginx-Logo-02.png)
+![bg left:30% 80%](https://iconape.com/wp-content/png_logo_vector/nginx.png)
 
 docker-compose automagically registers the virtual host with the Nginx container
 
