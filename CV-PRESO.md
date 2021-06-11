@@ -48,7 +48,7 @@ By: [Rich Bocchinfuso](http://bocchinfuso.net/)
 - **Build** API with Python and Flash
 - **Package** and containerize API
 - **Test and document** the API with Postman
-- **Document** with a good README.md
+- **Document** with a good [README.md](https://github.com/rbocchinfuso/cv-api/blob/master/README.md)
 - **CI/CD** pipeline
 - **Test** with lgtm, sonararcloud, loader.io
 - **Instrument and monitor** with Sentry, Prometheus and Grafana
@@ -57,7 +57,7 @@ By: [Rich Bocchinfuso](http://bocchinfuso.net/)
 
 # Project Overview
 
-![bg left:30% 90%](https://imgur.com/2GBz7F1.jpg)
+![bg left:30% 90%](https://imgur.com/097FvRD.jpg)
 
 - [**config.ini**](https://github.com/rbocchinfuso/cv-api/blob/master/config.ini): Config params; typically excluded from commit with .gitignore
 - [**cv-api.py**](https://github.com/rbocchinfuso/cv-api/blob/master/cv-api.py): The applicaiton
