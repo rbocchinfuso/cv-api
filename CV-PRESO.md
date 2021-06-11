@@ -17,6 +17,7 @@ By: [Rich Bocchinfuso](http://bocchinfuso.net/)
 
 - [GitHub Repo](https://github.com/rbocchinfuso/cv-api)
 - [Project Blog](http://gotitsolutions.org/2020/02/06/dominate-thy-destiny/)
+  - _Read this blog to understand my motivations and more of the why._
 - [This Preso-as-Code](https://github.com/rbocchinfuso/cv-api/blob/master/CV-PRESO.md)
 
 ---
