@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.18.3
 MAINTAINER Richard Bocchinfuso "rbocchinfuso@gmail.com"
 RUN apk add --update \
     python \
