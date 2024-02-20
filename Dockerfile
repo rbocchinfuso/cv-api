@@ -1,8 +1,8 @@
 FROM alpine:latest
 MAINTAINER Richard Bocchinfuso "rbocchinfuso@gmail.com"
 RUN apk add --update \
-    python \
-    python-dev \
+    python3 \
+    python3-dev \
     py-pip \
     build-base \
   && pip install virtualenv \
