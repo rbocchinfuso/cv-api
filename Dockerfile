@@ -5,7 +5,6 @@ RUN apk add --update \
     python3-dev \
     py3-pip \
     build-base \
-  && pipx install virtualenv \
   && rm -rf /var/cache/apk/*
 
 ENV VIRTUAL_ENV=/opt/venv
