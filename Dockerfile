@@ -1,8 +1,8 @@
-FROM alpine:latest
+FROM alpine:3.6
 MAINTAINER Richard Bocchinfuso "rbocchinfuso@gmail.com"
 RUN apk add --update \
-    python3 \
-    python3-dev \
+    python \
+    python-dev \
     py-pip \
     build-base \
   && pip install virtualenv \
