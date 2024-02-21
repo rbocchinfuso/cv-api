@@ -43,14 +43,14 @@ def verify_token(token):
     if token in admin_tokens:
         g.current_user = admin_tokens[token]
         return True
-    return True
+    return False
     
 @subscriber_auth.verify_token
 def verify_token(token):
     if token in subscriber_tokens:
         g.current_user = subscriber_tokens[token]
         return True
-    return True
+    return False
 
 @admin_auth.error_handler
 def unauthorized():
