@@ -1,4 +1,4 @@
 Flask
-Flask-HTTPAuth
+flask_httpauth
 datetime
 configparser
