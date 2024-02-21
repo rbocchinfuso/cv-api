@@ -86,10 +86,10 @@ def get_cv():
 def get_cvsection(section):
     return jsonify({section: [cv[section]]})
 
-# # a route to the loader.io token
-# @app.route("/loaderio-a1bf45ed67f8d31af6d5fc2616f65379/")
-# def index():
-    # return "loaderio-a1bf45ed67f8d31af6d5fc2616f65379"
+# a route to the loader.io token
+@app.route("/loaderio-a1bf45ed67f8d31af6d5fc2616f65379/")
+def index():
+    return "loaderio-a1bf45ed67f8d31af6d5fc2616f65379"
 
 if __name__ == '__main__':
     app.config['JSON_SORT_KEYS'] = False
