@@ -25,42 +25,42 @@ config.read('config.ini')
 config.sections()
 
 app = Flask(__name__)
-# admin_auth = HTTPTokenAuth(scheme='Bearer')
-# subscriber_auth = HTTPTokenAuth(scheme='Bearer')
+admin_auth = HTTPTokenAuth(scheme='Bearer')
+subscriber_auth = HTTPTokenAuth(scheme='Bearer')
 
 fmt = '%H:%M:%S' # ex. 20110104172008 -> Jan. 04, 2011 5:20:08pm 
 
-# admin_tokens = {
-    # config['auth']['admin_token'].encode('ascii') : "admin"
- # }
+admin_tokens = {
+    config['auth']['admin_token'].encode('ascii') : "admin"
+ }
 
-# subscriber_tokens = {
-    # config['auth']['subscriber_token'].encode('ascii') : "subscriber"
- # }
+subscriber_tokens = {
+    config['auth']['subscriber_token'].encode('ascii') : "subscriber"
+ }
  
-# @admin_auth.verify_token
-# def verify_token(token):
-    # if token in admin_tokens:
-        # g.current_user = admin_tokens[token]
-        # return True
-    # return False
+@admin_auth.verify_token
+def verify_token(token):
+    if token in admin_tokens:
+        g.current_user = admin_tokens[token]
+        return True
+    return True
     
-# @subscriber_auth.verify_token
-# def verify_token(token):
-    # if token in subscriber_tokens:
-        # g.current_user = subscriber_tokens[token]
-        # return True
-    # return False
+@subscriber_auth.verify_token
+def verify_token(token):
+    if token in subscriber_tokens:
+        g.current_user = subscriber_tokens[token]
+        return True
+    return True
 
-# @admin_auth.error_handler
-# def unauthorized():
-    # return make_response(jsonify({'error': 'Unauthorized access'}), 403)
-    # # return 403 instead of 401 to prevent browsers from displaying the default auth dialog
+@admin_auth.error_handler
+def unauthorized():
+    return make_response(jsonify({'error': 'Unauthorized access'}), 403)
+    # return 403 instead of 401 to prevent browsers from displaying the default auth dialog
 
-# @subscriber_auth.error_handler
-# def unauthorized():
-    # return make_response(jsonify({'error': 'Unauthorized access'}), 403)
-    # # return 403 instead of 401 to prevent browsers from displaying the default auth dialog
+@subscriber_auth.error_handler
+def unauthorized():
+    return make_response(jsonify({'error': 'Unauthorized access'}), 403)
+    # return 403 instead of 401 to prevent browsers from displaying the default auth dialog
 
 @app.errorhandler(400)
 def not_found(error):
